@@ -1,0 +1,10 @@
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\clienteConversor.csproj.AssemblyReference.cache
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\clienteConversor.csproj.GenerateResource.cache
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\clienteConversor.csproj.CoreCompileInputs.cache
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteConversion\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
