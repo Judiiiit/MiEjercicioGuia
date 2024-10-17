@@ -1,3 +1,4 @@
 "Mi Ejercicio Guia" 
 VersionConConexionDesconexion
 VersionConConcurrencia
+VersionConAccesoExcluyente

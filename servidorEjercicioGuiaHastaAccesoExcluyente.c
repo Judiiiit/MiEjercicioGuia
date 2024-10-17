@@ -8,6 +8,11 @@
 #include <ctype.h>
 #include <pthread.h>
 
+int contador;
+
+//Estructura necesaria para acceso excluyente
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+
 void *AtenderCliente (void *socket)
 {
 	int sock_conn;
@@ -41,7 +46,7 @@ void *AtenderCliente (void *socket)
 		char nombre [20];
 		int es_palindromo = 1;
 		
-		if (codigo != 0)
+		if ((codigo) != 0 && (codigo != 4))
 		{
 			p = strtok(NULL, "/");
 			strcpy(nombre, p);
@@ -69,7 +74,7 @@ void *AtenderCliente (void *socket)
 			else
 				sprintf (respuesta, "%s: eres bajo", nombre);
 		}
-		else if (codigo == 4) //decir si es alto
+		else if (codigo == 6) //decir si es palindromo
 		{
 			for (int i = 0; i < strlen(nombre) / 2; i++) 
 			{
@@ -91,6 +96,8 @@ void *AtenderCliente (void *socket)
 			}
 			sprintf(respuesta, "Tu nombre en mayusculas es: %s", nombre);
 		}
+		else if (codigo = 4)
+			sprintf (respuesta,"%d",contador);
 		
 		if (codigo !=0)
 		{
@@ -98,6 +105,10 @@ void *AtenderCliente (void *socket)
 			printf("Respuesta: %s\n", respuesta);
 			write(sock_conn, respuesta, strlen(respuesta));
 		}
+		if ((codigo == 1) || (codigo == 2) || (codigo == 3) || (codigo == 5) || (codigo == 6))
+			pthread_mutex_lock (&mutex); //no me interrumpas ahora
+			contador = contador + 1;
+			pthread_mutex_unlock (&mutex); //ya puedes interrumpirme
 	}
 	// Cerramos la conexion con este cliente
 	close(sock_conn);
@@ -119,13 +130,14 @@ int main(int argc, char *argv[])
 	//htonl formatea el numero que recibe al formato necesario
 	serv_adr.sin_addr.s_addr = htonl(INADDR_ANY);
 	// escucharemos en el port 9050
-	serv_adr.sin_port = htons(9050);
+	serv_adr.sin_port = htons(9150);
 	if (bind(sock_listen, (struct sockaddr *) &serv_adr, sizeof(serv_adr)) < 0)
 		printf ("Error al bind");
 	//La cola de peticiones pendientes no podr? ser superior a 4
 	if (listen(sock_listen, 4) < 0)
 		printf("Error en el Listen");
 	
+	contador = 0;
 	int sockets [100];
 	int i;
 	i=0;

@@ -118,3 +118,13 @@ C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\Ejercicio Guia\EjercicioGuia-V
 C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\Ejercicio Guia\EjercicioGuia-VI\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
 C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\Ejercicio Guia\EjercicioGuia-VI\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
 C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\Ejercicio Guia\EjercicioGuia-VI\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.AssemblyReference.cache
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.cache
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.CoreCompileInputs.cache
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\judit\Documents\3r CARRERA\5è QUATRI\SO\MiEjercicioGuia\clienteEjercicioGuia\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
